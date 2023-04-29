@@ -1,0 +1,60 @@
+.hero {
+    background-color: #2151cc;
+    color:white;
+    padding-top:1rem;
+    padding-bottom: 7rem;
+}
+
+.hero h1 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 900;
+    font-size:3rem;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-description {
+    margin: 0;
+}
+
+.hero-logo {
+    background-image: url('/assets/images/ITWorx_White_logo.svg');
+    background-repeat: no-repeat;
+    height: 110px;
+    width: 375px;
+    margin-inline-start: 2rem;
+    position: relative;
+    bottom: 1.35rem;
+}
+
+.features .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.features .card {
+    color: white;
+    background-color: #2151cc;
+    border-radius: 10px;
+    padding: 1.25rem;
+    width: 28%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    /* #51 from https://getcssscan.com/css-box-shadow-examples */
+}
+
+.features .card-header {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    font-size: 1.3rem;
+}
+
+.features .card-header h4 {
+    margin: 0;
+    margin-inline-start: 1rem;
+}

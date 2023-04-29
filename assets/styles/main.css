@@ -1,0 +1,53 @@
+@font-face {
+    font-family: inter;
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    font-family: inter;
+    margin: 0;
+    background-color: #a1c3ff;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 2rem;
+}
+
+header {
+    padding: 1rem 0;
+    background-color: #3474e6;
+}
+
+.nav-logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.nav-logo-container a,
+.nav-logo-container a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.navbar a:visited {
+    color: white;
+}
